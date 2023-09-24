@@ -13,7 +13,8 @@ View the mod: [(Modrinth)](https://modrinth.com/mod/cat-eyes)
 ## Developer Guide
 
 ### To update
-- Update the properties from *gradle.properties*. Follow the [Fabric Develop guide](https://fabricmc.net/develop/).  
+- Update the properties from *gradle.properties*. Follow the [Fabric Develop guide](https://fabricmc.net/develop/).
+- Increment the mod's version number
 - If it's a new Minecraft version, change the version number in */src/main/resources/fabric.mod.json*
 - Update the fabric-loom version from *build.gradle*.  
   - If a new gradle version is required to update the Loom version, use ```./gradlew wrapper --gradle-version x.x``` before updating the loom version
