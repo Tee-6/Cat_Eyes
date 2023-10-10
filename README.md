@@ -8,7 +8,7 @@ Utilizing Java and some JSON, I created an addition to the game to make it easie
 *"Thank you for such a great mod, I have low vision and mods like this are actually a great accessibility aid because I cannot rely on the monitor gamma..."*  
 
 ## Download
-View the mod: [(Modrinth)](https://modrinth.com/mod/cat-eyes)
+View the mod: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cat-eyes-night-vision-toggle-mod)
 
 ## Developer Guide
 
