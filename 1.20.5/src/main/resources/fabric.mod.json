@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "cateyes",
+  "version": "${version}",
+
+  "name": "Cat Eyes",
+  "description": "Adds a keybind to toggle client-side night vision. Also toggles immunity to the Darkness & Blindness effects.",
+  "authors": [
+    "Tee_Six"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/cat-eyes"
+  },
+
+  "license": "MIT",
+  "icon": "assets/cateyes/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.tee_six.cateyes.CatEyes"
+    ]
+  },
+  "mixins": [
+    "cateyes.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.20.x",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

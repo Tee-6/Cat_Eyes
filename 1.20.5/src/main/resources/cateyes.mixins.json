@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.tee_six.cateyes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "CatEyesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
