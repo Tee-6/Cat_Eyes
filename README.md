@@ -8,7 +8,7 @@ Utilizing Java and some JSON, I created an addition to the game to make it easie
 *"Thank you for such a great mod, I have low vision and mods like this are actually a great accessibility aid because I cannot rely on the monitor gamma..."*  
 
 ## Download
-View the mod: [(Modrinth)](https://modrinth.com/mod/cat-eyes)
+View the mod: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cat-eyes-night-vision-toggle-mod)
 
 ## Developer Guide
 
@@ -17,7 +17,9 @@ View the mod: [(Modrinth)](https://modrinth.com/mod/cat-eyes)
 - Increment the mod's version number
 - If it's a new Minecraft version, change the version number in */src/main/resources/fabric.mod.json*
 - Update the fabric-loom version from *build.gradle*.  
-  - If a new gradle version is required to update the Loom version, use ```./gradlew wrapper --gradle-version x.x``` before updating the loom version
+  - If a new gradle version is required to update the Loom version:
+    - Update the version number in `gradle/gradle-wrapper.properties`
+    - Use ```./gradlew wrapper --gradle-version x.x``` before updating the loom version
 
 ### To build
 Enter ```./gradlew build``` into the terminal.<br>
