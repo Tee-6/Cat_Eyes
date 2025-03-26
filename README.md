@@ -19,7 +19,7 @@ View the mod: [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cat-eyes
 - Update the fabric-loom version from *build.gradle*.  
   - If a new gradle version is required to update the Loom version:
     - Update the version number in `gradle/gradle-wrapper.properties`
-    - Use ```./gradlew wrapper --gradle-version x.x``` before updating the loom version
+    - Use ```./gradlew wrapper --gradle-version x.x``` (replace `x.x` with the new version number)
 
 ### To build
 Enter ```./gradlew build``` into the terminal.<br>
